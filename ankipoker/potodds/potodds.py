@@ -9,7 +9,7 @@ from ankipoker.imagegen import image_key, create_image_for_chips
 from ankipoker.types import BetType, ChipStack
 from ankipoker.util import sum_chips, value_to_chips
 
-OUTPUT_DIR = 'output'
+OUTPUT_DIR = os.path.join('output', 'potodds')
 IMAGE_DIR = os.path.join(OUTPUT_DIR, 'images')
 OUT_FILE = os.path.join(OUTPUT_DIR, 'out.csv')
 POT_MEAN = 3
